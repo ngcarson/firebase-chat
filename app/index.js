@@ -1,12 +1,10 @@
-import { View, Text } from 'react-native'
+import { View, Text, ActivityIndicator } from 'react-native'
 import React from 'react'
 
-export default function Home() {
+export default function StartPage() {
   return (
-    <View style={{ paddingTop: 40 }} className="bg-red-200">
-      <Text className="text-3xl">
-        Home carson ng
-      </Text>
+    <View style={{ paddingTop: 40 }} className="flex-1 justify-center">
+      <ActivityIndicator size="Large" color="gray" />
     </View>
   )
 }
