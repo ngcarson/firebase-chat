@@ -3,6 +3,8 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <View>Home</View>
+    <View>
+      <Text>Home</Text>
+    </View>
   )
 }

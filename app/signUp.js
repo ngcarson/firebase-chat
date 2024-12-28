@@ -3,6 +3,8 @@ import React from 'react'
 
 export default function signUp() {
   return (
-    <View>signUp</View>
+    <View className="pt-20">
+      <Text>signUp</Text>
+    </View>
   )
 }
